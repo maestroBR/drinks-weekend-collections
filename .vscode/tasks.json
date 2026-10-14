@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build addon server",
+      "type": "shell",
+      "command": "dotnet build src/WeekendCollections/WeekendCollections.csproj -c Release",
+      "group": "build",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Build addon client",
+      "type": "shell",
+      "command": "dotnet build client/Client.csproj -c Release",
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "Validate collections",
+      "type": "shell",
+      "command": "python3 tools/validate.py",
+      "problemMatcher": []
+    }
+  ]
+}

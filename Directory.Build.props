@@ -1,0 +1,21 @@
+<Project>
+  <Import Project="Directory.Build.local.props" Condition="Exists('Directory.Build.local.props')" />
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <SptRoot Condition="'$(SptRoot)' == ''">$(SPT_ROOT)</SptRoot>
+    <WeekendRoot Condition="'$(WeekendRoot)' == ''">$(SptRoot)/user/mods/WeekendDrops</WeekendRoot>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <Reference Include="SPTarkov.Server.Core" HintPath="$(SptRoot)/SPTarkov.Server.Core.dll" Private="false" />
+    <Reference Include="SPTarkov.Common" HintPath="$(SptRoot)/SPTarkov.Common.dll" Private="false" />
+    <Reference Include="SPTarkov.DI" HintPath="$(SptRoot)/SPTarkov.DI.dll" Private="false" />
+    <Reference Include="SemanticVersioning" HintPath="$(SptRoot)/SemanticVersioning.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(SptRoot)/0Harmony.dll" Private="false" />
+  </ItemGroup>
+  <Target Name="CheckSptReferences" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(SptRoot)/SPTarkov.Server.Core.dll')" Text="Defina SPT_ROOT ou -p:SptRoot com a pasta SPT_Runtime do SPT 4.1.6." />
+  </Target>
+</Project>

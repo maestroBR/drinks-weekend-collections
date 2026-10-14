@@ -1,0 +1,4 @@
+* text=auto
+*.bundle binary
+*.jpg binary
+*.png binary

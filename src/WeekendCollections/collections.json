@@ -1,0 +1,210 @@
+[
+  {
+    "id": "set_brainiac_drinks_monster_classicos",
+    "name": "MONSTER ORIGINALS",
+    "description": "Collect all 4 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7ab",
+      "694c6d5568b849f7bb05b7a9",
+      "694c6d5568b849f7bb05b7aa",
+      "694c6d5568b849f7bb05b7c2"
+    ],
+    "milestones": [
+      {
+        "required": 4,
+        "gpReward": 1000,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_monster_tropicais",
+    "name": "MONSTER TROPICAL",
+    "description": "Collect all 4 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7ba",
+      "694c6d5568b849f7bb05b7bb",
+      "694c6d5568b849f7bb05b7c1",
+      "694c6d5568b849f7bb05b7c3"
+    ],
+    "milestones": [
+      {
+        "required": 4,
+        "gpReward": 1000,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_monster_doces",
+    "name": "MONSTER DESSERTS",
+    "description": "Collect all 3 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7b5",
+      "694c6d5568b849f7bb05b7b6",
+      "694c6d5568b849f7bb05b7cd"
+    ],
+    "milestones": [
+      {
+        "required": 3,
+        "gpReward": 750,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_ghost_frutas",
+    "name": "GHOST ORCHARD",
+    "description": "Collect all 5 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7b7",
+      "694c6d5568b849f7bb05b7b4",
+      "694c6d5568b849f7bb05b7b9",
+      "694c6d5568b849f7bb05b7bc",
+      "694c6d5568b849f7bb05b7cb"
+    ],
+    "milestones": [
+      {
+        "required": 5,
+        "gpReward": 1250,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_ghost_doces",
+    "name": "GHOST SWEETS",
+    "description": "Collect all 3 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7c4",
+      "694c6d5568b849f7bb05b7c5",
+      "694c6d5568b849f7bb05b7ce"
+    ],
+    "milestones": [
+      {
+        "required": 3,
+        "gpReward": 750,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_arizona",
+    "name": "ARIZONA OASIS",
+    "description": "Collect all 4 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7a8",
+      "694c6d5568b849f7bb05b7b2",
+      "694c6d5568b849f7bb05b7b3",
+      "694c6d5568b849f7bb05b7ca"
+    ],
+    "milestones": [
+      {
+        "required": 4,
+        "gpReward": 1000,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_bang_rockstar_nos",
+    "name": "HIGH VOLTAGE",
+    "description": "Collect all 5 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7ae",
+      "694c6d5568b849f7bb05b7ad",
+      "694c6d5568b849f7bb05b7be",
+      "694c6d5568b849f7bb05b7af",
+      "694c6d5568b849f7bb05b7b8"
+    ],
+    "milestones": [
+      {
+        "required": 5,
+        "gpReward": 1250,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_c4",
+    "name": "C4 FLAVORS",
+    "description": "Collect all 3 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7bf",
+      "694c6d5568b849f7bb05b7c0",
+      "694c6d5568b849f7bb05b7c6"
+    ],
+    "milestones": [
+      {
+        "required": 3,
+        "gpReward": 750,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_rip_it",
+    "name": "RIP IT PATROL",
+    "description": "Collect all 3 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7c7",
+      "694c6d5568b849f7bb05b7c8",
+      "694c6d5568b849f7bb05b7c9"
+    ],
+    "milestones": [
+      {
+        "required": 3,
+        "gpReward": 750,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  },
+  {
+    "id": "set_brainiac_drinks_stalker_starbucks",
+    "name": "NIGHT SHIFT",
+    "description": "Collect all 4 drinks in this set.",
+    "gpPerItem": 200,
+    "itemIds": [
+      "694c6d5568b849f7bb05b7b0",
+      "694c6d5568b849f7bb05b7bd",
+      "694c6d5568b849f7bb05b7cc",
+      "694c6d5568b849f7bb05b7ac"
+    ],
+    "milestones": [
+      {
+        "required": 4,
+        "gpReward": 1000,
+        "perk": "GpPercent",
+        "perkValue": 10,
+        "description": "Permanent +10% GP bonus on Weekend rewards."
+      }
+    ]
+  }
+]

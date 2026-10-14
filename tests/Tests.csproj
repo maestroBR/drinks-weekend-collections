@@ -1,0 +1,1 @@
+<Project Sdk="Microsoft.NET.Sdk"><PropertyGroup><OutputType>Exe</OutputType></PropertyGroup><ItemGroup><Compile Include="../src/WeekendCollections/CollectionMerger.cs" Link="CollectionMerger.cs"/><Reference Include="WeekendDrops" HintPath="$(WeekendRoot)/WeekendDrops.dll" Private="true"/></ItemGroup></Project>

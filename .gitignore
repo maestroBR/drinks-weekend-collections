@@ -1,0 +1,17 @@
+**/bin/
+**/obj/
+dist/
+.artifacts/
+*.user
+*.suo
+*.log
+.env*
+!.env.example
+.vscode/settings.local.json
+**/profiles/
+**/backups/
+
+__pycache__/
+*.py[cod]
+
+Directory.Build.local.props

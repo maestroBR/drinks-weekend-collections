@@ -1,0 +1,1 @@
+<Project><Import Project="../Directory.Build.local.props" Condition="Exists('../Directory.Build.local.props')"/><PropertyGroup><TargetFramework>netstandard2.1</TargetFramework><LangVersion>latest</LangVersion><SptRoot Condition="'$(SptRoot)' == ''">$(SPT_ROOT)</SptRoot><GameRoot Condition="'$(GameRoot)' == ''">$(SptRoot)/..</GameRoot></PropertyGroup></Project>
