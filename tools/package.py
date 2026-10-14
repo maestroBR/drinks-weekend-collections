@@ -10,6 +10,6 @@ with ZipFile(file,'w',ZIP_DEFLATED)as z:
   z.write(p,'SPT_Runtime/user/mods/Drinks-WeekendCollections/'+p.name)
  p=ROOT/'client/bin/Release/netstandard2.1/Drinks.WeekendCollections.Client.dll';z.write(p,'BepInEx/plugins/Drinks-WeekendCollections/'+p.name)
  for p in (ROOT/'locales').glob('*.json'):z.write(p,'BepInEx/plugins/Drinks-WeekendCollections/locales/'+p.name)
- for name in ['README.md','LICENSE','CHANGELOG.md']:z.write(ROOT/name,name)
+ for name in ['README.md','LICENSE.md','CHANGELOG.md']:z.write(ROOT/name,name)
 (dist/'checksums.json').write_text(json.dumps({file.name:hashlib.sha256(file.read_bytes()).hexdigest()},indent=2)+'\n')
 print(file)
